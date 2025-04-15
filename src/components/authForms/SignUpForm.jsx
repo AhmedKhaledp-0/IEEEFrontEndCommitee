@@ -20,7 +20,7 @@ const SignUpForm = () => {
 
   const onSubmit = () => {
     try {
-      console.log("Form submitted:", submissionData);
+      console.log("Form submitted successfully!");
       alert("Account created successfully!");
     } catch (error) {
       console.error("Error during signup:", error);
