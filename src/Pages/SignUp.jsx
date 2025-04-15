@@ -1,11 +1,8 @@
 import React from "react";
+import SignUpForm from "../components/authForms/SignUpForm";
 
 const SignUp = () => {
-  return (
-    <h1 className="text-3xl font-bold text-center text-zinc-900 dark:text-zinc-50">
-      Sign Up Page
-    </h1>
-  );
+  return <SignUpForm />;
 };
 
 export default SignUp;
