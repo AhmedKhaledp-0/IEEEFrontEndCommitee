@@ -29,7 +29,7 @@ const ThemeToggle = () => {
     <button
       onClick={toggleTheme}
       aria-label={darkMode ? "Switch to light mode" : "Switch to dark mode"}
-      className="w-10 h-10 flex cursor-pointer justify-center items-center rounded-lg bg-zinc-200 dark:bg-zinc-700 text-zinc-800 dark:text-zinc-200 transition-colors"
+      className="w-10 h-10 flex cursor-pointer justify-center items-center hover:bg-zinc-300 hover:dark:bg-zinc-600 rounded-lg bg-zinc-200 dark:bg-zinc-700 text-zinc-800 dark:text-zinc-200 transition-colors"
     >
       {darkMode ? (
         <FontAwesomeIcon icon={faSun} className="h-5 w-5" />
